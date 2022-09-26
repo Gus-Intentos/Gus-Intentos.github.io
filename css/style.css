@@ -76,3 +76,14 @@ background: linear-gradient(27deg,#54b4cf 10%, #254776 90%);
 padding: 20px;
 text-align: center;
 }
+
+@media screen and (max-width:800px){
+    .container nav {
+        flex-direction: column;
+        border-top: 10px solid black;
+        border-bottom:5px solid black ;
+    }
+    .container .Main {
+        flex-direction: column;
+    }
+}
