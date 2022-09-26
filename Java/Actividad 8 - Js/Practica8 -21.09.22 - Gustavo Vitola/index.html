@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/formulario-de-contacto.png" type="image/x-icon">
+    <title>Formulario Muy lindo!</title>
+</head>
+<body>
+<section class="container">
+    <header>
+        <h2>Datos de Usuario</h2>
+    </header>
+    <article>
+        <form id="formUser" name="formUser">
+            <div class="form-control">
+                <label for="user">Nombre de usuario</label>
+                <input type="text" name="user">
+                <p id="ValideUser"></p>
+            </div>
+            <div class="form-control">
+                <label for="Email">Correo De Usuario</label>
+                <input type="Email" id="Email">
+                <p id="Valide_Email"></p>
+            </div>
+            <div class="form-control">
+                <label for="Password">Contraseña</label>
+                <input type="Password" id="Password">
+                <p id="Valide_Password"></p>
+            </div>
+            <div class="form-control">
+                <label for="PasswordC">Confirmar Contraseña</label>
+                <input type="Password" id="PasswordC">
+                <p id="validaPasswordC"></p>
+            </div>
+            <input type="button" value="Enviar" onclick="ValidaCampos()">
+        </form>
+    </article>
+</section>
+    <div>
+        <script src="js/app.js"></script>
+    </div>
+</body>
+</html>

@@ -1,0 +1,43 @@
+body{
+    text-align: center;
+    background-color: lightcyan;
+    font-family: 'Roboto', sans-serif;
+    
+}
+h1{
+    color :darkblue;
+background-color: white;
+padding: 12px;
+border-radius: 12px;
+margin-left: 250px;
+margin-right: 250px;
+border: 3px solid darkblue;
+}
+h2{
+    color: darkblue;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 15px;
+ 
+    }
+a{
+    background-color: rgb(255, 208, 230);
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid darkblue;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+  
+}
+div{
+    background-color: rgb(52, 246, 246);
+    margin-top: 55px;
+    padding: 55px;
+    border-radius:12px;
+    font-family: 'Roboto', sans-serif;
+
+    border: 5px solid black;
+}

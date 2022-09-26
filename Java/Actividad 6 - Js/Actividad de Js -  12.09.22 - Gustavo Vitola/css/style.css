@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Combo&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: 'Combo', cursive;
+    text-align: center;
+    background-color: aquamarine;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+h1{
+    background-color: #9ED2C6;
+    margin-top: 1%;
+    margin-bottom: 14%;
+    padding: 16px;
+    border: 1px solid lightblue;
+    text-shadow: 3px 3px 3px white;
+}
+.Formato{
+    background-color: #9ED2C6;
+    padding: 16px;
+    border-radius: 12px;
+    margin: 0 450px 0 450px;
+    text-shadow: 1px 1px 1px grey;
+}
+button{
+    font-size: 20px;
+    border: #9ED2C6 solid;
+    background-color: #9ED2C6;
+    padding: 5px;
+}
+button:hover{
+    box-shadow: 2px 2px 2px 2px black;
+    border: 1px solid black;
+    padding: 7px;
+    text-shadow: 1px 1px 1px white
+}
+

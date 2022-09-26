@@ -1,0 +1,13 @@
+body{
+    text-align: center;
+}
+div{
+    background-color: rgb(105, 215, 32);
+    margin-top: 250px;
+    margin-left: 250px;
+    margin-right: 250px;
+    border-radius: 15px;
+    padding: 100px;
+    color: rgb(211, 69, 53);
+    font-size: 30px;
+}

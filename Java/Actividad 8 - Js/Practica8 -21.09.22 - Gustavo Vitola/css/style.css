@@ -1,0 +1,89 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background:#3dc7be;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.container{
+background: #fff;
+border-radius: 2px;
+box-shadow: 19px 20px 8px -9px grey;
+overflow: hidden;
+width: 400px;
+max-width: 100%;
+}
+header{
+    background: #13334c;
+    color: transparent;
+    text-shadow: 1px 1px 1px white;
+    text-align: center;
+    border-bottom: 1px solid #f0f0f0;
+    padding: 20px 40px;
+}
+header:hover{
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    transition: 2.0s;
+}
+#formUser{
+    padding: 30px 20px;
+}
+.form-control{
+    margin-bottom: 7px;
+    padding-bottom: 20px;
+    position: relative;
+}
+.form-control label {
+    display: inline-block;
+    margin-bottom: 7px;
+    font: weight 200px ;
+}
+.form-control input{
+    border: none;
+    background-color: lightgrey;
+    display: block;
+    font-family: inherit;
+    font-size: 16px;
+    padding: 12px;
+    width: 100%;
+}
+.form-control input:hover{
+box-shadow: 1px 1px 5px grey;
+color: darkblue;
+text-shadow: 1px 1px 2px darkblue;
+transition: 0.4s;
+}
+.form-control input:focus{
+    outline: none;
+}
+#formUser input[type="button"]{
+    background: #fd4f00;
+    border:1px solid #fd5f00;
+    border-radius: 2px;
+    color: #f6f6e9;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size:18px;
+}
+#formUser input[type="button"]:hover{
+    box-shadow: 1px 1px 100px  black;
+    text-shadow: 1px 1px 1px black;
+    transition: 0.2s;
+    font-weight: 300;
+    font-size: 19px;
+
+}
+.form-control p{
+    position: absolute;
+    font-size:small ;
+    font-weight: 500;
+    text-align: right;
+    color: #e74c3c;
+}
