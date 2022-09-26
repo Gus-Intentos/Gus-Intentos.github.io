@@ -1,0 +1,66 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    text-shadow: 2px 3px 6px grey;
+}
+body{
+    background-color: #F9F2ED;
+}
+.menu{
+    width: 1000px;
+    margin: auto;
+}
+.Espacios-a{
+margin: 30px;
+border-bottom: 1px solid #3182ce;
+margin-bottom: 2%;
+}
+.Enlaces-Pags{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    font-style: italic ;
+    margin-left: 180px;
+}
+.Espacio{
+    padding: 24px 0px 24px 70px;
+  }
+.Caja{
+    width:  64px;            
+    height: 64px;            
+    background-color:#F87474 ; 
+    color: white;
+    margin: 8px;
+}
+.Caja2{
+    width: 64px;
+    height: 64px;
+    background-color: #FFB562;
+    color: white;
+    margin: 8px;
+    position: relative;
+    left: 128px;
+}
+h1{
+    text-align: center;
+    font-size: 30px;
+}
+.Caja3{
+    width: 64px;
+    height: 64px;
+    color: white;
+    background-color: #3AB0FF;
+    margin: 8px;
+    position: absolute;
+}
+.Caja4{
+    width: 64px;
+    height: 64px;
+    color: white;
+    background-color: #367E18;
+    margin: 8px;
+    position: fixed;
+    margin-top: 100px;
+    box-shadow: 1px 3px 8px black;
+}
+

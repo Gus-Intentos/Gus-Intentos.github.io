@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-image:url(https://www.desarrollolibre.net/public/images/example//css/fondo-vivo-css.png);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: 100% 100%;
+    font-family: 'Roboto', sans-serif;
+    font-size: smaller;
+}
+.Margen{
+    margin: 3em;
+}
+.Titulo{
+    background-color: #22554D;
+    margin: 12px 450px 12px 450px;
+    text-align: center;
+    padding: 12px;
+    border-radius: 12px;
+    border: 1px solid #F0FFF4;
+    color: #9AE6B4;
+}
+.Caja1{
+    background-color: #F0FFF4;
+    width: 3em;
+    height: 2em;
+    padding: 8px;
+    margin: 8px;
+    border-radius: 2px;
+    border-bottom: 3px solid;
+}
+.Caja2{
+    background-color: #C6F6D5;
+    width: 4em;
+    height: 2em;
+    padding: 8px;
+    margin: 8px;
+    border-radius: 2px;
+    border-bottom: 3px solid;
+}
+.Caja3{
+    background-color: #9AE6B4;
+    width: 5em;
+    height: 2em;
+    padding: 8px;
+    margin: 8px;
+    border-radius: 2px;
+    border-bottom: 3px solid;
+}
+.Caja4{
+    background-color: #68D391;
+    width: 6em;
+    height: 2em;
+    padding: 8px;
+    margin: 8px;
+    border-radius: 2px;
+    border-bottom: 3px solid;
+}
+.Caja5{
+   background-color: #48BB78;
+   width: 7em;
+   height: 2em;
+   padding: 8px;
+   margin: 8px;
+   border-radius: 2px;
+   border-bottom: 3px solid;
+}
+.Caja6{
+    background-color: #38A169;
+    width: 8em;
+    height: 2em;
+    padding: 8px;
+    margin: 8px;
+    border-radius: 2px;
+    border-bottom: 3px solid;
+}
+.Caja7{
+    background-color: #2F855A;
+    width: 9em;
+    height: 2em;
+    padding: 8px;
+    margin: 8px;
+    border-radius: 2px;
+    border-bottom: 3px solid;
+}
+.Caja8{
+    background-color: #276749;
+    width: 10em;
+    height: 2em;
+    padding: 8px;
+    margin: 8px;
+    border-radius: 2px;
+    border-bottom: 3px solid;
+}
+.Caja9{
+    background-color: #22554D;
+    width: 11em;
+    height: 2em;
+    padding: 8px;
+    margin: 8px;    
+    border-radius: 2px;
+    border-bottom: 3px solid;
+}
+.Box1{
+    width: 5em;
+    height: 2em;
+    padding: 8px;
+    margin: 8px;
+    margin-left: 0.5em;
+    border-radius: 6px;
+    text-align: center;
+    border-left: solid 3px;
+    background-color: #EBF8FF;
+    
+}
+.Box2{
+    width: 5em;
+    height: 2em;
+    padding: 8px;
+    margin: 8px;
+    margin-left: 1em;
+    border-radius: 6px;
+    text-align: center;
+    border-left: solid 3px;
+    background-color: #C6F6D5;
+}
+.Box3{
+    width: 5em;
+    height: 2em;
+    padding: 8px;
+    margin: 8px;
+    margin-left: 1.5em;
+    border-radius: 6px;
+    text-align: center;
+    border-left: solid 3px;
+    background-color: #9AE6B4;
+}
+.Box4{
+    width: 5em;
+    height: 2em;
+    padding: 8px;
+    margin: 8px;
+    margin-left: 2em;
+    border-radius: 6px;
+    text-align: center;
+    border-left: solid 3px;
+    background-color: #68D391;
+}
+.Box5{
+    width: 5em;
+    height: 2em;
+    padding: 8px;
+    margin: 8px;
+    margin-left: 2.5em;
+    border-radius: 6px;
+    text-align: center;
+    border-left: solid 3px;
+    background-color: #48BB78;
+}
+.Box6{
+    width: 5em;
+    height: 2em;
+    padding: 8px;
+    margin: 8px;
+    margin-left: 3em;
+    border-radius: 6px;
+    text-align: center;
+    border-left: solid 3px;
+    background-color: #38A169;
+}
+.Box7{
+    width: 5em;
+    height: 2em;
+    padding: 8px;
+    margin: 8px;
+    margin-left: 3.5em;
+    border-radius: 6px;
+    text-align: center;
+    border-left: solid 3px;
+    background-color: #2F855A;
+}
+.Box8{
+    width: 5em;
+    height: 2em;
+    padding: 8px;
+    margin: 8px;
+    margin-left: 4em;
+    border-radius: 6px;
+    text-align: center;
+    border-left: solid 3px;
+    background-color: #276749;
+}
+.Box9{
+    width: 5em;
+    height: 2em;
+    padding: 8px;
+    margin: 8px;
+    margin-left: 4.5em;
+    border-radius: 6px;
+    text-align: center;
+    border-left: solid 3px;
+    background-color: #22554D;
+}
+.Contenedor1{
+width: 11em;
+height: 11em;
+padding: 12px;
+border-radius: 6px;
+text-align: center;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: #22554D;
+}
+.Contenedor2{
+    width: 10em;
+    height: 10em;
+    padding: 12px;
+    border-radius: 6px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #276749;
+    }
+    .Contenedor3{
+        width: 9em;
+        height: 9em;
+        padding: 12px;
+        border-radius: 6px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #2F855A;
+        }
+        .Contenedor4{
+            width: 8em;
+            height: 8em;
+            padding: 12px;
+            border-radius: 6px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #38A169;
+            }
+            .Contenedor5{
+                width: 7em;
+                height: 7em;
+                padding: 12px;
+                border-radius: 6px;
+                text-align: center;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: #48BB78;
+                }
+                .Contenedor6{
+                    width: 6em;
+                    height: 6em;
+                    padding: 12px;
+                    border-radius: 6px;
+                    text-align: center;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    background-color: #68D391;
+                    }
+                    .Contenedor7{
+                        width: 5em;
+                        height: 5em;
+                        padding: 12px;
+                        border-radius: 6px;
+                        text-align: center;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        background-color: #9AE6B4;
+                        }
+                        .Contenedor8{
+                            width: 4em;
+                            height: 4em;
+                            padding: 12px;
+                            border-radius: 6px;
+                            text-align: center;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            background-color: #C6F6D5;
+                            }
+                            .Contenedor9{
+                                width: 3em;
+                                height: 3em;
+                                padding: 12px;
+                                border-radius: 6px;
+                                text-align: center;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                background-color: #EBF8FF;
+                                }
+                                .Img1{
+                                    margin-left: 750px;
+                                    transition: all 1.0s;
+                                    position: absolute;
+                                }
+                                div{
+                                    transition: all 0.4s;
+                                }
+
+                                 img:hover{
+                                    transform: scale(0.9);
+                                }
+                                div:hover{
+                                    transform: scale(0.8);
+                                }
