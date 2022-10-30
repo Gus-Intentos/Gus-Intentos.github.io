@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz@8..144&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto Flex', sans-serif;
+}
+@keyframes snowflakes-fall{
+    0% {
+    top: -10%;
+  }
+  100%{
+    top: 100%;
+  }
+}
+@keyframes snowflakes-shake{
+    0% {
+    transform: translateX(0px);
+  }
+  50%{
+    transform: translateX(80px);
+  }
+  100%{
+    transform: translateX(0px);
+  }
+}
+.snowflake{
+    position: fixed;
+    z-index: 9999;
+    top:-10%;
+    animation-name: snowflakes-fall , snowflakes-shake;
+    animation-duration: 10s , 3s;
+    animation-timing-function: linear , ease-in-out;
+    animation-iteration-count: infinite , infinite;
+    animation-play-state: running , running;
+}
+.snowflake{
+    opacity: 0.8;
+}
+
+.snowflake:nth-of-type(0) {
+    left: 1%;
+    animation-delay: 0s ,0s ;
+}
+.snowflake:nth-of-type(1) {
+    left: 10%;
+    -webkit-animation-delay: 1s , 1s;
+    animation-delay: 1s, 1s;
+}
+.snowflake:nth-of-type(2) {
+    left: 20%;
+    -webkit-animation-delay: 7s , 7s;
+    animation-delay: 2s, 2s;
+}
+.snowflake:nth-of-type(3) {
+    left: 30%;
+    -webkit-animation-delay: 1s , 1s;
+    animation-delay: 3s, 3s;
+}
+.snowflake:nth-of-type(4) {
+    left: 40%;
+    -webkit-animation-delay: 1s , 1s;
+    animation-delay: 10s, 10s;
+}
+.snowflake:nth-of-type(5) {
+    left: 50%;
+    -webkit-animation-delay: 7s , 7s;
+    animation-delay: 9s, 9s;
+}
+.snowflake:nth-of-type(6) {
+    left: 60%;
+    -webkit-animation-delay: 7s , 7s;
+    animation-delay: 8s, 8s;
+}
+.snowflake:nth-of-type(7) {
+    left: 70%;
+    -webkit-animation-delay: 5s , 5s;
+    animation-delay: 7s, 7s;
+}
+.snowflake:nth-of-type(8) {
+    left: 80%;
+    -webkit-animation-delay: 1s , 1s;
+    animation-delay: 6s, 6s;
+}
+.snowflake:nth-of-type(9) {
+    left: 90%;
+    -webkit-animation-delay: 9s , 9s;
+    animation-delay: 4s, 4s;
+}
+.snowflake:nth-of-type(10) {
+    left: 25%;
+    -webkit-animation-delay: 5s , 5s;
+    animation-delay: 5s, 5s;
+}
+.snowflake:nth-of-type(11) {
+    left: 45%;
+    -webkit-animation-delay: 2s , 2s;
+    animation-delay: 3s, 3s;
+}
+.snowflake:nth-of-type(12) {
+    left: 75%;
+    -webkit-animation-delay: 7s , 7s;
+    animation-delay: 2s, 2s;
+}
+   
+a{
+    text-decoration: none;
+}
+h1{
+    text-decoration: underline;
+}
+.container{
+    width: 90%;
+    max-width: 1000px;
+    height: 90vh;
+    background-color: #FAF6E9;
+    margin: auto;
+}
+.container header{
+    background:linear-gradient(27deg,#212121 90%,white 10%);
+    background:linear-gradient(27deg,white 10%,#212121 90%);
+    color: white;
+    padding: 50px;
+    text-align: center;
+    text-shadow: 1px 1px 12px black;
+}
+.container nav{
+    border-bottom:2px solid black;
+    border-top: 1px solid black;
+    background:linear-gradient(27deg,#212121 90%,white 10%);
+    background:linear-gradient(27deg,white 10%,#212121 90%);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.container nav a{
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 20px ;
+    flex-grow:1;
+    font-size: 1rem;
+}
+.container nav a:hover{
+    background-color: #212121;
+    color:white;
+    transition: 0.3s;
+}
+.container .Main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.container .Main aside{
+    background-color: lightgray;
+    color: #212121;
+    padding:8%;
+    flex: 30%;
+}
+.container .Main section{
+    background-color:gray;
+    padding: 20px;
+    flex: 70%;
+}
+.container .Main section h2{
+    width: 100%;
+    margin-left: 34vh;
+    margin-top: 8vh;
+}
+.container .Main section p{
+    padding: 10%;
+}
+.container .Main aside a:hover{
+    color:grey;
+}
+footer{
+color: black;
+background: linear-gradient(27deg,#254776 10%, #54b4cf 90%);
+background: linear-gradient(27deg,#54b4cf 10%, #254776 90%);
+padding: 20px;
+text-align: center;
+}
+.container .Main aside h2{
+    width: 100%;
+    margin-bottom: 20px;
+    margin-left: 8%;
+}
+.container .Main aside ul{
+    width: 100%;
+}
+.container .Main aside ul li{
+    list-style:none;
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin: 5px;
+}
+.container .Main aside ul li a{
+    color: black;
+    text-decoration: none;
+    padding-left: 5px;
+    margin-left: 15%;
+}
+
